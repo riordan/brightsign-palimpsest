@@ -1,8 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<BrightAuthor version="6" BrightAuthorVersion="4.4.0.15" type="project">
+<BrightAuthor version="6" BrightAuthorVersion="4.4.0.15" type="publish">
   <meta>
     <name>basic-videolist-master</name>
-    <isBackup>False</isBackup>
     <model>HD1020</model>
     <videoMode>1024x768x60p</videoMode>
     <monitorOrientation>Landscape</monitorOrientation>
@@ -179,9 +178,6 @@
       <height>768</height>
       <type>VideoOrImages</type>
       <id>1</id>
-      <zoomValue>1</zoomValue>
-      <horizontalOffset>0</horizontalOffset>
-      <verticalOffset>0</verticalOffset>
       <zoneSpecificParameters>
         <viewMode>Letterboxed and Centered</viewMode>
         <audioOutput>Analog Audio</audioOutput>
@@ -218,11 +214,6 @@
           <initialState>Event Handler</initialState>
           <state>
             <name>Event Handler</name>
-            <x>210</x>
-            <y>48</y>
-            <width>116</width>
-            <height>99</height>
-            <id>0</id>
             <eventHandler2Item>
               <stopPlayback>False</stopPlayback>
             </eventHandler2Item>
@@ -246,25 +237,17 @@
             </brightSignCmd>
             <brightSignExitCommands>
             </brightSignExitCommands>
-            <notes />
           </state>
           <state>
             <name>countdown-1.mp4</name>
-            <x>216</x>
-            <y>236</y>
-            <width>116</width>
-            <height>99</height>
-            <id>1</id>
             <videoItem>
-              <file name="countdown-1.mp4" path="E:\media-assets\countdown-1.mp4" />
+              <file name="countdown-1.mp4" />
               <fileIsLocal>True</fileIsLocal>
-              <volume>100</volume>
               <videoDisplayMode>2D</videoDisplayMode>
               <automaticallyLoop>True</automaticallyLoop>
             </videoItem>
             <brightSignExitCommands>
             </brightSignExitCommands>
-            <notes />
           </state>
           <transition>
             <sourceMediaState>Event Handler</sourceMediaState>
@@ -275,8 +258,6 @@
               </parameters>
             </userEvent>
             <targetMediaState>countdown-1.mp4</targetMediaState>
-            <displayMode>displayConnectingLine</displayMode>
-            <labelLocation>bottom</labelLocation>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
@@ -289,8 +270,6 @@
               </parameters>
             </userEvent>
             <targetMediaState>countdown-1.mp4</targetMediaState>
-            <displayMode>displayLabel</displayMode>
-            <labelLocation>bottom</labelLocation>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>

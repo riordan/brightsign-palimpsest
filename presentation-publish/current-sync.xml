@@ -37,26 +37,26 @@
   <files>
     <download>
       <name>autoplay-basic-videolist-master.xml</name>
-      <hash method="SHA1">a28be7c9dc9a5afaa42a77719c722b81f0828c0b</hash>
-      <size>11379</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/0/b/sha1-a28be7c9dc9a5afaa42a77719c722b81f0828c0b</link>
+      <hash method="SHA1">d86d2518c8ba7c42ee368104740ffca4c3010051</hash>
+      <size>10672</size>
+      <link>http://brown.columbia.edu/brightsign/master/pool/5/1/sha1-d86d2518c8ba7c42ee368104740ffca4c3010051</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
     <download>
       <name>basic-videolist-master.bml</name>
-      <hash method="SHA1">2d8e6848f8f10c7c220121411a7abc773a4e7af8</hash>
-      <size>12145</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/f/8/sha1-2d8e6848f8f10c7c220121411a7abc773a4e7af8</link>
+      <hash method="SHA1">fdbf3048126442193758ca8acafc42d24f68b1f8</hash>
+      <size>11435</size>
+      <link>http://brown.columbia.edu/brightsign/master/pool/f/8/sha1-fdbf3048126442193758ca8acafc42d24f68b1f8</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>countdown-2-bw.mp4</name>
-      <hash method="SHA1">a5fde5506f1ff5fddeddbb0d55da1c360ad7d37f</hash>
-      <size>586892</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/7/f/sha1-a5fde5506f1ff5fddeddbb0d55da1c360ad7d37f</link>
-      <probe>2|TT=MP4|IX=Y|AP=2|AC=AAC|ACH=2|ASR=44100|AD=00002061|VP=1|VC=H264|W=320|H=240|VD=000020b7|CD=0|D=000020b8|FT=00000000</probe>
+      <name>countdown-1.mp4</name>
+      <hash method="SHA1">65945580b55c676c578fbd154fe4da216d532dca</hash>
+      <size>569261</size>
+      <link>http://brown.columbia.edu/brightsign/master/pool/c/a/sha1-65945580b55c676c578fbd154fe4da216d532dca</link>
+      <probe>2|TT=MP4|IX=Y|VP=1|VC=H264|W=640|H=480|VD=00001978|CD=0|D=00001978|FT=00000000</probe>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -209,15 +209,6 @@
       <hash method="SHA1">01bea1dd2c0bfa193a9107f0d3e228817157c39c</hash>
       <size>132563</size>
       <link>http://brown.columbia.edu/brightsign/master/pool/9/c/sha1-01bea1dd2c0bfa193a9107f0d3e228817157c39c</link>
-      <headers inherit="no" />
-      <chargeable>no</chargeable>
-    </download>
-    <download>
-      <name>bobcat-update.bsfw</name>
-      <hash method="SHA1">3710562429c64f3987df9fb2bc7d0fa51787fd28</hash>
-      <size>83542914</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/2/8/sha1-3710562429c64f3987df9fb2bc7d0fa51787fd28</link>
-      <group>script</group>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
