@@ -36,18 +36,18 @@
   </meta>
   <files>
     <download>
-      <name>autoplay-basic-videolist-master.xml</name>
-      <hash method="SHA1">a28be7c9dc9a5afaa42a77719c722b81f0828c0b</hash>
+      <name>autoplay-basic-videolist-slave.xml</name>
+      <hash method="SHA1">6a10c6fcd110c4c481b30fcf4bee14ae22c25f59</hash>
       <size>11379</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/0/b/sha1-a28be7c9dc9a5afaa42a77719c722b81f0828c0b</link>
+      <link>http://brown.columbia.edu/brightsign/master/pool/5/9/sha1-6a10c6fcd110c4c481b30fcf4bee14ae22c25f59</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>basic-videolist-master.bml</name>
-      <hash method="SHA1">2d8e6848f8f10c7c220121411a7abc773a4e7af8</hash>
+      <name>basic-videolist-slave.bml</name>
+      <hash method="SHA1">0bddcc2ca6bbc075f75d984e4fdae22231a90f6f</hash>
       <size>12145</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/f/8/sha1-2d8e6848f8f10c7c220121411a7abc773a4e7af8</link>
+      <link>http://brown.columbia.edu/brightsign/master/pool/6/f/sha1-0bddcc2ca6bbc075f75d984e4fdae22231a90f6f</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -213,15 +213,6 @@
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>bobcat-update.bsfw</name>
-      <hash method="SHA1">3710562429c64f3987df9fb2bc7d0fa51787fd28</hash>
-      <size>83542914</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/2/8/sha1-3710562429c64f3987df9fb2bc7d0fa51787fd28</link>
-      <group>script</group>
-      <headers inherit="no" />
-      <chargeable>no</chargeable>
-    </download>
-    <download>
       <name>autorun.brs</name>
       <hash method="SHA1">77acf346c4ebcfe84877ef9c6494adb59604e82c</hash>
       <size>1075732</size>
@@ -232,9 +223,9 @@
     </download>
     <download>
       <name>autoschedule.xml</name>
-      <hash method="SHA1">b4a15a9e14c9f33e02a5f070c1a088b66efbc073</hash>
-      <size>950</size>
-      <link>http://brown.columbia.edu/brightsign/master/pool/7/3/sha1-b4a15a9e14c9f33e02a5f070c1a088b66efbc073</link>
+      <hash method="SHA1">e49cf68a69db0c72db909f390797e13d59a696de</hash>
+      <size>947</size>
+      <link>http://brown.columbia.edu/brightsign/master/pool/d/e/sha1-e49cf68a69db0c72db909f390797e13d59a696de</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
