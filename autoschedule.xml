@@ -2,9 +2,9 @@
 <autoschedule version="1.0" group="LocalStorageGroup">
   <scheduledPresentation>
     <presentationToSchedule>
-      <name>basic-videolist-slave</name>
-      <fileName>basic-videolist-slave.bpf</fileName>
-      <filePath>E:\basic-videolist-slave.bpf</filePath>
+      <name>Project 1</name>
+      <fileName>Project 1.bpf</fileName>
+      <filePath>E:\Project 1.bpf</filePath>
     </presentationToSchedule>
     <dateTime>2016-07-20T00:00:00</dateTime>
     <duration>1440</duration>

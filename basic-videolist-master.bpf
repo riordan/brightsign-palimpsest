@@ -277,28 +277,46 @@
             <targetMediaState>countdown-2-bw.mp4</targetMediaState>
             <displayMode>displayConnectingLine</displayMode>
             <labelLocation>bottom</labelLocation>
+            <brightSignCmd>
+              <name>Synchronize</name>
+              <customUI>False</customUI>
+              <command>
+                <name>synchronize</name>
+                <parameter>
+                  <name>synchronizeKeyword</name>
+                  <uiElementName>synchronizeKeyword</uiElementName>
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>go</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
           <transition>
             <sourceMediaState>countdown-2-bw.mp4</sourceMediaState>
             <userEvent>
-              <name>timeout</name>
+              <name>mediaEnd</name>
               <parameters>
-                <parameter>10</parameter>
+                <parameter />
               </parameters>
             </userEvent>
             <targetMediaState>countdown-2-bw.mp4</targetMediaState>
             <displayMode>displayLabel</displayMode>
             <labelLocation>bottom</labelLocation>
             <brightSignCmd>
-              <name>SendZoneMessage</name>
+              <name>Synchronize</name>
               <customUI>False</customUI>
               <command>
-                <name>sendZoneMessage</name>
+                <name>synchronize</name>
                 <parameter>
-                  <name>zoneMessage</name>
-                  <uiElementName>zoneMessage</uiElementName>
+                  <name>synchronizeKeyword</name>
+                  <uiElementName>synchronizeKeyword</uiElementName>
                   <parameterValue>
                     <parameterValueItemText>
                       <value>go</value>

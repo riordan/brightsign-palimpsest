@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<videoWallConfiguration version="1.0">
+  <name>brightWallConfig</name>
+  <model>HD1020</model>
+  <videoConnector>HDMI</videoConnector>
+  <videoMode>1920x1080x60p</videoMode>
+  <monitorOverscan>noOverscan</monitorOverscan>
+  <measureBezelByPercent>True</measureBezelByPercent>
+  <bezelWidthPercent>0</bezelWidthPercent>
+  <bezelHeightPercent>0</bezelHeightPercent>
+  <bezelWidthMeasurement>0</bezelWidthMeasurement>
+  <bezelHeightMeasurement>0</bezelHeightMeasurement>
+  <screenWidthMeasurement>402</screenWidthMeasurement>
+  <screenHeightMeasurement>375</screenHeightMeasurement>
+  <numRows>1</numRows>
+  <numColumns>2</numColumns>
+  <ptpDomain>0</ptpDomain>
+</videoWallConfiguration>

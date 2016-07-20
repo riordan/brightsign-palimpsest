@@ -269,9 +269,9 @@
           <transition>
             <sourceMediaState>Event Handler</sourceMediaState>
             <userEvent>
-              <name>timeout</name>
+              <name>synchronize</name>
               <parameters>
-                <parameter>10</parameter>
+                <parameter>go</parameter>
               </parameters>
             </userEvent>
             <targetMediaState>countdown-2-bw.mp4</targetMediaState>
@@ -283,32 +283,14 @@
           <transition>
             <sourceMediaState>countdown-2-bw.mp4</sourceMediaState>
             <userEvent>
-              <name>timeout</name>
+              <name>synchronize</name>
               <parameters>
-                <parameter>10</parameter>
+                <parameter>go</parameter>
               </parameters>
             </userEvent>
             <targetMediaState>countdown-2-bw.mp4</targetMediaState>
             <displayMode>displayLabel</displayMode>
             <labelLocation>bottom</labelLocation>
-            <brightSignCmd>
-              <name>SendZoneMessage</name>
-              <customUI>False</customUI>
-              <command>
-                <name>sendZoneMessage</name>
-                <parameter>
-                  <name>zoneMessage</name>
-                  <uiElementName>zoneMessage</uiElementName>
-                  <parameterValue>
-                    <parameterValueItemText>
-                      <value>go</value>
-                    </parameterValueItemText>
-                  </parameterValue>
-                  <itemName />
-                  <validationRule>-1</validationRule>
-                </parameter>
-              </command>
-            </brightSignCmd>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
