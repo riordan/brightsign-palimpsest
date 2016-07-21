@@ -111,7 +111,7 @@
     <udpDestinationAddress>255.255.255.255</udpDestinationAddress>
     <udpDestinationPort>5000</udpDestinationPort>
     <udpReceiverPort>5000</udpReceiverPort>
-    <enableEnhancedSynchronization deviceIsSyncMaster="False" ptpDomain="0" />
+    <enableEnhancedSynchronization deviceIsSyncMaster="True" ptpDomain="0" />
     <flipCoordinates>false</flipCoordinates>
     <touchCursorDisplayMode>auto</touchCursorDisplayMode>
     <language>English</language>
@@ -181,7 +181,7 @@
       <id>1</id>
       <zoomValue>1</zoomValue>
       <horizontalOffset>0</horizontalOffset>
-      <verticalOffset>0</verticalOffset>
+      <verticalOffset>80</verticalOffset>
       <zoneSpecificParameters>
         <viewMode>Letterboxed and Centered</viewMode>
         <audioOutput>Analog Audio</audioOutput>
@@ -249,14 +249,14 @@
             <notes />
           </state>
           <state>
-            <name>countdown-1.mp4</name>
-            <x>216</x>
-            <y>236</y>
+            <name>ThirdAve1950_512kb.mp4</name>
+            <x>213</x>
+            <y>226</y>
             <width>116</width>
             <height>99</height>
             <id>1</id>
             <videoItem>
-              <file name="countdown-1.mp4" path="E:\media-assets\countdown-1.mp4" />
+              <file name="ThirdAve1950_512kb.mp4" path="E:\media-assets\ThirdAve1950_512kb.mp4" />
               <fileIsLocal>True</fileIsLocal>
               <volume>100</volume>
               <videoDisplayMode>2D</videoDisplayMode>
@@ -269,28 +269,46 @@
           <transition>
             <sourceMediaState>Event Handler</sourceMediaState>
             <userEvent>
-              <name>synchronize</name>
+              <name>timeout</name>
               <parameters>
-                <parameter>go</parameter>
+                <parameter>10</parameter>
               </parameters>
             </userEvent>
-            <targetMediaState>countdown-1.mp4</targetMediaState>
+            <targetMediaState>ThirdAve1950_512kb.mp4</targetMediaState>
             <displayMode>displayConnectingLine</displayMode>
             <labelLocation>bottom</labelLocation>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
           <transition>
-            <sourceMediaState>countdown-1.mp4</sourceMediaState>
+            <sourceMediaState>ThirdAve1950_512kb.mp4</sourceMediaState>
             <userEvent>
-              <name>synchronize</name>
+              <name>mediaEnd</name>
               <parameters>
-                <parameter>go</parameter>
+                <parameter />
               </parameters>
             </userEvent>
-            <targetMediaState>countdown-1.mp4</targetMediaState>
+            <targetMediaState>ThirdAve1950_512kb.mp4</targetMediaState>
             <displayMode>displayLabel</displayMode>
             <labelLocation>bottom</labelLocation>
+            <brightSignCmd>
+              <name>Synchronize</name>
+              <customUI>False</customUI>
+              <command>
+                <name>synchronize</name>
+                <parameter>
+                  <name>synchronizeKeyword</name>
+                  <uiElementName>synchronizeKeyword</uiElementName>
+                  <parameterValue>
+                    <parameterValueItemText>
+                      <value>10</value>
+                    </parameterValueItemText>
+                  </parameterValue>
+                  <itemName />
+                  <validationRule>-1</validationRule>
+                </parameter>
+              </command>
+            </brightSignCmd>
             <assignInputToUserVariable>False</assignInputToUserVariable>
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
