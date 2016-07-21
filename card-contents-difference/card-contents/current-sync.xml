@@ -1,78 +1,286 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <sync version="1.0" name="Simple Networking">
-  <meta>
-    <client>
-      <base>https://s3.amazonaws.com/bright-brown-columbia-test/host</base>
-      <next>/current-sync.xml</next>
-      <event>EVENT</event>
-      <error>ERROR</error>
-      <deviceerror>DEVICEERROR</deviceerror>
-      <uploadusage>UPLOADUSAGE</uploadusage>
-      <nowplaying>NOWPLAYING</nowplaying>
-      <getfile>GETFILE</getfile>
-      <uploadlogs />
-      <uploadsnapshots />
-      <timezone>EST</timezone>
-      <unitName>demo-0</unitName>
-      <unitNamingMethod>appendUnitIDToUnitName</unitNamingMethod>
-      <unitDescription />
-      <timeBetweenNetConnects>300</timeBetweenNetConnects>
-      <contentDownloadsRestricted>no</contentDownloadsRestricted>
-      <timeBetweenHeartbeats>900</timeBetweenHeartbeats>
-      <heartbeatsRestricted>no</heartbeatsRestricted>
-      <specifyHostname>no</specifyHostname>
-      <useProxy>no</useProxy>
-      <useWireless>no</useWireless>
-      <timeServer>http://time.brightsignnetwork.com</timeServer>
-      <useDHCP>yes</useDHCP>
-      <rateLimitModeOutsideWindow>default</rateLimitModeOutsideWindow>
-      <rateLimitRateOutsideWindow>0</rateLimitRateOutsideWindow>
-      <rateLimitModeInWindow>unlimited</rateLimitModeInWindow>
-      <rateLimitRateInWindow>0</rateLimitRateInWindow>
-      <rateLimitModeInitialDownloads>unlimited</rateLimitModeInitialDownloads>
-      <rateLimitRateInitialDownloads>0</rateLimitRateInitialDownloads>
-      <lwsConfig>none</lwsConfig>
-      <lwsUserName />
-      <lwsPassword />
-      <lwsEnableUpdateNotifications>no</lwsEnableUpdateNotifications>
-      <playbackLoggingEnabled>no</playbackLoggingEnabled>
-      <eventLoggingEnabled>no</eventLoggingEnabled>
-      <stateLoggingEnabled>no</stateLoggingEnabled>
-      <diagnosticLoggingEnabled>no</diagnosticLoggingEnabled>
-      <variableLoggingEnabled>no</variableLoggingEnabled>
-      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
-      <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
-      <uploadLogFilesTime>0</uploadLogFilesTime>
-      <networkConnectionPriorityWired>0</networkConnectionPriorityWired>
-      <networkConnectionPriorityWireless>1</networkConnectionPriorityWireless>
-      <contentDataTypeEnabledWired>True</contentDataTypeEnabledWired>
-      <textFeedsDataTypeEnabledWired>True</textFeedsDataTypeEnabledWired>
-      <healthDataTypeEnabledWired>True</healthDataTypeEnabledWired>
-      <mediaFeedsDataTypeEnabledWired>True</mediaFeedsDataTypeEnabledWired>
-      <logUploadsDataTypeEnabledWired>True</logUploadsDataTypeEnabledWired>
-      <dwsEnabled>no</dwsEnabled>
-      <dwsPassword />
-      <deviceScreenShotsEnabled>no</deviceScreenShotsEnabled>
-      <deviceScreenShotsInterval>900</deviceScreenShotsInterval>
-      <deviceScreenShotsCountLimit>5</deviceScreenShotsCountLimit>
-      <deviceScreenShotsQuality>50</deviceScreenShotsQuality>
-      <deviceScreenShotsDisplayPortrait>False</deviceScreenShotsDisplayPortrait>
-      <idleScreenColor>FFE10071</idleScreenColor>
-      <networkDiagnosticsEnabled>False</networkDiagnosticsEnabled>
-      <testEthernetEnabled>True</testEthernetEnabled>
-      <testWirelessEnabled>False</testWirelessEnabled>
-      <testInternetEnabled>True</testInternetEnabled>
-      <BrightWallName />
-      <BrightWallScreenNumber />
-      <useCustomSplashScreen>False</useCustomSplashScreen>
-    </client>
-    <server>
-      <account>ACCOUNT</account>
-      <user />
-      <password />
-      <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
-      <group>Simple Networking</group>
-    </server>
-  </meta>
-  <files />
+ <meta>
+  <client>
+   <base>https://s3.amazonaws.com/bright-brown-columbia-test/host</base>
+   <contentDownloadsRestricted>no</contentDownloadsRestricted>
+   <deviceScreenShotsEnabled>no</deviceScreenShotsEnabled>
+   <deviceerror>DEVICEERROR</deviceerror>
+   <diagnosticLoggingEnabled>no</diagnosticLoggingEnabled>
+   <enableSerialDebugging>False</enableSerialDebugging>
+   <enableSystemLogDebugging>False</enableSystemLogDebugging>
+   <error>ERROR</error>
+   <event>EVENT</event>
+   <eventLoggingEnabled>no</eventLoggingEnabled>
+   <getfile>GETFILE</getfile>
+   <limitStorageSpace>False</limitStorageSpace>
+   <next>/current-sync.xml</next>
+   <playbackLoggingEnabled>no</playbackLoggingEnabled>
+   <stateLoggingEnabled>no</stateLoggingEnabled>
+   <timeBetweenNetConnects>300</timeBetweenNetConnects>
+   <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
+   <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
+   <uploadLogFilesTime>0</uploadLogFilesTime>
+   <uploadlogs></uploadlogs>
+   <uploadsnapshots></uploadsnapshots>
+   <uploadusage>UPLOADUSAGE</uploadusage>
+   <variableLoggingEnabled>no</variableLoggingEnabled>
+  </client>
+  <server>
+   <account>ACCOUNT</account>
+   <enableUnsafeAuthentication>False</enableUnsafeAuthentication>
+   <group>GROUPNAME</group>
+   <password></password>
+   <user></user>
+  </server>
+ </meta>
+ <files>
+  <delete>
+   <pattern>*.brs</pattern>
+  </delete>
+  <delete>
+   <pattern>*.rok</pattern>
+  </delete>
+  <delete>
+   <pattern>*.bsfw</pattern>
+  </delete>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">3eaf7132ceb9792636efc30dbed67265317d1d32</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/3/2/sha1-3eaf7132ceb9792636efc30dbed67265317d1d32</link>
+   <name>autoplay-Project 1.xml</name>
+   <size>11351</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">f0e7e67deb3e09b6f59fc1f99ac44b6ce9887972</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/7/2/sha1-f0e7e67deb3e09b6f59fc1f99ac44b6ce9887972</link>
+   <name>Project 1.bml</name>
+   <size>12114</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">65945580b55c676c578fbd154fe4da216d532dca</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/c/a/sha1-65945580b55c676c578fbd154fe4da216d532dca</link>
+   <name>countdown-1.mp4</name>
+   <probe>2|TT=MP4|IX=Y|VP=1|VC=H264|W=640|H=480|VD=00001978|CD=0|D=00001978|FT=00000000</probe>
+   <size>569261</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">c2bfa0a925e5bef3af0e154cdcd0b03f2bc00203</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/0/3/sha1-c2bfa0a925e5bef3af0e154cdcd0b03f2bc00203</link>
+   <name>BrightSignApplicationServer-404.html</name>
+   <size>3525</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">22a33344ed53e1e8fc53512672269cd96a104125</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/2/5/sha1-22a33344ed53e1e8fc53512672269cd96a104125</link>
+   <name>BrightSignApplicationServer-bas.html</name>
+   <size>882</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">a1bae6f0516a56cf140aa7177e9559418fe8f85e</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/5/e/sha1-a1bae6f0516a56cf140aa7177e9559418fe8f85e</link>
+   <name>BrightSignApplicationServer-favicon.ico</name>
+   <size>1150</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/0/c/sha1-87d1eb6a86ba28bfa8008f10be7136fb0ed15e0c</link>
+   <name>BrightSignApplicationServer-index.html</name>
+   <size>201</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">9345c7fffd19714ba7169ea645f554dd6a1992a0</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/a/0/sha1-9345c7fffd19714ba7169ea645f554dd6a1992a0</link>
+   <name>BrightSignApplicationServer-robots.txt</name>
+   <size>34</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">f3a9a3b609133c3d21d6b42abbf7f43bd111df72</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/7/2/sha1-f3a9a3b609133c3d21d6b42abbf7f43bd111df72</link>
+   <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.eot</name>
+   <size>20335</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">47fde98e2a90b356fb13984030103a308c62c030</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/3/0/sha1-47fde98e2a90b356fb13984030103a308c62c030</link>
+   <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.svg</name>
+   <size>63154</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">aafafdc09404c4aa4447d7e898a2183def9cc1b1</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/b/1/sha1-aafafdc09404c4aa4447d7e898a2183def9cc1b1</link>
+   <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.ttf</name>
+   <size>41280</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">22037a3455914e5662fa51a596677bdb329e2c5c</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/5/c/sha1-22037a3455914e5662fa51a596677bdb329e2c5c</link>
+   <name>BrightSignApplicationServer-fonts/glyphicons-halflings-regular.woff</name>
+   <size>23320</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/e/0/sha1-f71be1e9fc8dc38cadb5e3cbf8fcad4f7368a9e0</link>
+   <name>BrightSignApplicationServer-html/landing/landing.html</name>
+   <size>886</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">7b059c02bccb1dcb935699f6a3d7cdd21146e120</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/2/0/sha1-7b059c02bccb1dcb935699f6a3d7cdd21146e120</link>
+   <name>BrightSignApplicationServer-html/remote-snapshot/configure-snapshots.html</name>
+   <size>4237</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">1bfae55189a796ae5b6daa90e56c09534312b251</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/5/1/sha1-1bfae55189a796ae5b6daa90e56c09534312b251</link>
+   <name>BrightSignApplicationServer-html/remote-snapshot/view-snapshots.html</name>
+   <size>2243</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/8/f/sha1-af0bc48cf35bfaee4f21f99a8e48594fa514ee8f</link>
+   <name>BrightSignApplicationServer-images/bg_main_background.ec008440.png</name>
+   <size>98</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">19240f186609ea1cbf728c3687f75e1bcb977987</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/8/7/sha1-19240f186609ea1cbf728c3687f75e1bcb977987</link>
+   <name>BrightSignApplicationServer-images/bs-logo.558b3252.png</name>
+   <size>2914</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">fa1157d9899362291d7f289aa53bc7ef54c0fd50</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/5/0/sha1-fa1157d9899362291d7f289aa53bc7ef54c0fd50</link>
+   <name>BrightSignApplicationServer-scripts/brightsign.087c41eb.js</name>
+   <size>8261</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">370f5dbee879aaad2c37b589123017530e064487</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/8/7/sha1-370f5dbee879aaad2c37b589123017530e064487</link>
+   <name>BrightSignApplicationServer-scripts/oldieshim.76f279db.js</name>
+   <size>20978</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">8cbef233e4e288f9f13a365362a84b051a6d30de</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/d/e/sha1-8cbef233e4e288f9f13a365362a84b051a6d30de</link>
+   <name>BrightSignApplicationServer-scripts/vendor.93fc20a3.js</name>
+   <size>329973</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">41989e2ff79dd7bd1b294cb382e654c234a38b46</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/4/6/sha1-41989e2ff79dd7bd1b294cb382e654c234a38b46</link>
+   <name>BrightSignApplicationServer-styles/brightsign.1ea7f101.css</name>
+   <size>1276</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">01bea1dd2c0bfa193a9107f0d3e228817157c39c</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/9/c/sha1-01bea1dd2c0bfa193a9107f0d3e228817157c39c</link>
+   <name>BrightSignApplicationServer-styles/vendor.51dd6dba.css</name>
+   <size>132563</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <group>script</group>
+   <hash method="SHA1">77acf346c4ebcfe84877ef9c6494adb59604e82c</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/2/c/sha1-77acf346c4ebcfe84877ef9c6494adb59604e82c</link>
+   <name>autorun.brs</name>
+   <size>1075732</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">aa5a5152d6beb42856c2a8138dcfd2011091370d</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/0/d/sha1-aa5a5152d6beb42856c2a8138dcfd2011091370d</link>
+   <name>autoschedule.xml</name>
+   <size>911</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">123580d24f72d21dbb92628f94e64a43ac0e69c1</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/c/1/sha1-123580d24f72d21dbb92628f94e64a43ac0e69c1</link>
+   <name>resources.txt</name>
+   <size>2299</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <group>script</group>
+   <hash method="SHA1">a0acb3e76c85e48d326e802428b23f0325667410</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/1/0/sha1-a0acb3e76c85e48d326e802428b23f0325667410</link>
+   <name>autoplugins.brs</name>
+   <size>146</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/d/f/sha1-ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</link>
+   <name>_deviceWebPage.html</name>
+   <size>116438</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">a3eeb8009617a56fa412802e061ec931a6bd0fb1</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/b/1/sha1-a3eeb8009617a56fa412802e061ec931a6bd0fb1</link>
+   <name>_deviceIdWebPage.html</name>
+   <size>117474</size>
+  </download>
+  <download>
+   <headers inherit="no"/>
+   <chargeable>no</chargeable>
+   <hash method="SHA1">27fe8c782b5d086e962d9f9cdf56afde25522709</hash>
+   <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/0/9/sha1-27fe8c782b5d086e962d9f9cdf56afde25522709</link>
+   <name>featureMinRevs.xml</name>
+   <size>658</size>
+  </download>
+  <ignore>
+   <pattern>*</pattern>
+  </ignore>
+ </files>
 </sync>
