@@ -37,9 +37,9 @@
   <files>
     <download>
       <name>autoplay-basic-videolist-master.xml</name>
-      <hash method="SHA1">b58a9522b9fa0bd168b6f3f92d8feeb1d0c86b91</hash>
+      <hash method="SHA1">05c5482afc39a3d2f471789303db4a4530464f0d</hash>
       <size>12321</size>
-      <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/9/1/sha1-b58a9522b9fa0bd168b6f3f92d8feeb1d0c86b91</link>
+      <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/9/1/sha1-05c5482afc39a3d2f471789303db4a4530464f0d</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -52,11 +52,11 @@
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>ThirdAve1950_512kb.mp4</name>
-      <hash method="SHA1">d1d05f52f901147f3ccdca87c0b2c0337d0e94b8</hash>
-      <size>44758868</size>
-      <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/b/8/sha1-d1d05f52f901147f3ccdca87c0b2c0337d0e94b8</link>
-      <probe>2|TT=MP4|IX=Y|AP=2|AC=AAC|ACH=2|ASR=44100|AD=0009abd3|VP=1|VC=H264|W=320|H=240|VD=0009ae85|CD=0|D=0009ae86|FT=00000000</probe>
+      <name>countdown-2-bw.mp4</name>
+      <hash method="SHA1">a5fde5506f1ff5fddeddbb0d55da1c360ad7d37f</hash>
+      <size>586892</size>
+      <link>https://s3.amazonaws.com/bright-brown-columbia-test/host/pool/0/0/sha1-a5fde5506f1ff5fddeddbb0d55da1c360ad7d37f</link>
+      <probe>2|TT=MP4|IX=Y|AP=2|AC=AAC|ACH=2|ASR=44100|AD=00002061|VP=1|VC=H264|W=320|H=240|VD=000020b7|CD=0|D=000020b8|FT=00000000</probe>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
