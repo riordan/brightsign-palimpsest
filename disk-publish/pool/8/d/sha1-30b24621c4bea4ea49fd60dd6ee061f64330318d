@@ -239,9 +239,9 @@
             </brightSignExitCommands>
           </state>
           <state>
-            <name>countdown-2-bw.mp4</name>
+            <name>countdown-1.mp4</name>
             <videoItem>
-              <file name="countdown-2-bw.mp4" />
+              <file name="countdown-1.mp4" />
               <fileIsLocal>True</fileIsLocal>
               <videoDisplayMode>2D</videoDisplayMode>
               <automaticallyLoop>True</automaticallyLoop>
@@ -257,7 +257,7 @@
                 <parameter>10</parameter>
               </parameters>
             </userEvent>
-            <targetMediaState>countdown-2-bw.mp4</targetMediaState>
+            <targetMediaState>countdown-1.mp4</targetMediaState>
             <brightSignCmd>
               <name>Synchronize</name>
               <customUI>False</customUI>
@@ -280,14 +280,14 @@
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
           <transition>
-            <sourceMediaState>countdown-2-bw.mp4</sourceMediaState>
+            <sourceMediaState>countdown-1.mp4</sourceMediaState>
             <userEvent>
               <name>mediaEnd</name>
               <parameters>
                 <parameter />
               </parameters>
             </userEvent>
-            <targetMediaState>countdown-2-bw.mp4</targetMediaState>
+            <targetMediaState>countdown-1.mp4</targetMediaState>
             <brightSignCmd>
               <name>Synchronize</name>
               <customUI>False</customUI>

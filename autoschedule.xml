@@ -6,16 +6,16 @@
       <fileName>basic-videolist-master.bpf</fileName>
       <filePath>E:\basic-videolist-master.bpf</filePath>
     </presentationToSchedule>
-    <dateTime>2016-07-20T00:00:00</dateTime>
+    <dateTime>2016-07-24T00:00:00</dateTime>
     <duration>1440</duration>
     <allDayEveryDay>True</allDayEveryDay>
     <recurrence>False</recurrence>
     <recurrencePattern>Daily</recurrencePattern>
     <recurrencePatternDaily>EveryDay</recurrencePatternDaily>
-    <recurrencePatternDaysOfWeek>8</recurrencePatternDaysOfWeek>
-    <recurrenceStartDate>2016-07-20T00:00:00</recurrenceStartDate>
+    <recurrencePatternDaysOfWeek>1</recurrencePatternDaysOfWeek>
+    <recurrenceStartDate>2016-07-24T00:00:00</recurrenceStartDate>
     <recurrenceGoesForever>True</recurrenceGoesForever>
-    <recurrenceEndDate>2017-07-20T00:00:00</recurrenceEndDate>
+    <recurrenceEndDate>2017-07-24T00:00:00</recurrenceEndDate>
     <interruption>False</interruption>
   </scheduledPresentation>
 </autoschedule>
