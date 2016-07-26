@@ -1,0 +1,12 @@
+<rss version ="2.0">
+  <channel>
+    <title>Brown Institute System Host</title>
+    <description>Testing the Brightsign Data Feed format</description>
+    <item>
+      <title>Countdown-2</title>
+      <description>
+        http://s3.amazonaws.com/bright-brown-columbia-test/media/countdown-2-bw.mp4
+      </description>
+    </item>
+  </channel>
+</rss>
