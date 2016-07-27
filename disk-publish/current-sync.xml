@@ -2,7 +2,7 @@
 <sync version="1.0" name="Simple Networking">
   <meta>
     <client>
-      <base>https://s3.amazonaws.com/bright-brown-columbia-test/host</base>
+      <base>http://10.0.0.10:8000/presentation-publish</base>
       <next>/current-sync.xml</next>
       <event>EVENT</event>
       <error>ERROR</error>
@@ -13,18 +13,26 @@
       <uploadlogs />
       <uploadsnapshots />
       <timezone>EST</timezone>
-      <unitName>demo-0</unitName>
+      <unitName>local-demo-0</unitName>
       <unitNamingMethod>appendUnitIDToUnitName</unitNamingMethod>
       <unitDescription />
       <timeBetweenNetConnects>300</timeBetweenNetConnects>
-      <contentDownloadsRestricted>no</contentDownloadsRestricted>
+      <contentDownloadsRestricted>yes</contentDownloadsRestricted>
+      <contentDownloadRangeStart>0</contentDownloadRangeStart>
+      <contentDownloadRangeLength>0</contentDownloadRangeLength>
       <timeBetweenHeartbeats>900</timeBetweenHeartbeats>
       <heartbeatsRestricted>no</heartbeatsRestricted>
       <specifyHostname>no</specifyHostname>
       <useProxy>no</useProxy>
       <useWireless>no</useWireless>
       <timeServer>http://time.brightsignnetwork.com</timeServer>
-      <useDHCP>yes</useDHCP>
+      <useDHCP>no</useDHCP>
+      <staticIPAddress>10.0.0.1</staticIPAddress>
+      <subnetMask>255.255.255.0</subnetMask>
+      <gateway>10.0.0.10</gateway>
+      <dns1 />
+      <dns2 />
+      <dns3 />
       <rateLimitModeOutsideWindow>default</rateLimitModeOutsideWindow>
       <rateLimitRateOutsideWindow>0</rateLimitRateOutsideWindow>
       <rateLimitModeInWindow>unlimited</rateLimitModeInWindow>

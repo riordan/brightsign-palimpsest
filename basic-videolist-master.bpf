@@ -181,7 +181,7 @@
       <id>1</id>
       <zoomValue>1</zoomValue>
       <horizontalOffset>0</horizontalOffset>
-      <verticalOffset>0</verticalOffset>
+      <verticalOffset>96</verticalOffset>
       <zoneSpecificParameters>
         <viewMode>Letterboxed and Centered</viewMode>
         <audioOutput>Analog Audio</audioOutput>
@@ -256,7 +256,7 @@
             <height>99</height>
             <id>1</id>
             <videoItem>
-              <file name="countdown-2-bw.mp4" path="E:\media-assets\countdown-2-bw.mp4" />
+              <file name="countdown-1.mp4" path="E:\media-assets\countdown-1.mp4" />
               <fileIsLocal>True</fileIsLocal>
               <volume>100</volume>
               <videoDisplayMode>2D</videoDisplayMode>
