@@ -12,14 +12,14 @@
       <getfile>GETFILE</getfile>
       <uploadlogs />
       <uploadsnapshots />
-      <timeBetweenNetConnects>30</timeBetweenNetConnects>
+      <timeBetweenNetConnects>300</timeBetweenNetConnects>
       <contentDownloadsRestricted>no</contentDownloadsRestricted>
       <playbackLoggingEnabled>yes</playbackLoggingEnabled>
       <eventLoggingEnabled>yes</eventLoggingEnabled>
       <diagnosticLoggingEnabled>yes</diagnosticLoggingEnabled>
       <stateLoggingEnabled>yes</stateLoggingEnabled>
       <variableLoggingEnabled>yes</variableLoggingEnabled>
-      <uploadLogFilesAtBoot>yes</uploadLogFilesAtBoot>
+      <uploadLogFilesAtBoot>no</uploadLogFilesAtBoot>
       <uploadLogFilesAtSpecificTime>no</uploadLogFilesAtSpecificTime>
       <uploadLogFilesTime>0</uploadLogFilesTime>
       <enableSerialDebugging>False</enableSerialDebugging>
@@ -37,17 +37,17 @@
   <files>
     <download>
       <name>autoplay-basic-video-datafeed-master.xml</name>
-      <hash method="SHA1">0db91eaf00266c52e47f5cd2220ae80d8c0f3b2f</hash>
-      <size>12683</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/2/f/sha1-0db91eaf00266c52e47f5cd2220ae80d8c0f3b2f</link>
+      <hash method="SHA1">e9f099d357445de60738e836c83f885159a2f9b4</hash>
+      <size>12684</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/b/4/sha1-e9f099d357445de60738e836c83f885159a2f9b4</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
     <download>
       <name>basic-video-datafeed-master.bml</name>
-      <hash method="SHA1">160c52ad514e3bd88778d8515443638a5be942af</hash>
-      <size>13428</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/a/f/sha1-160c52ad514e3bd88778d8515443638a5be942af</link>
+      <hash method="SHA1">f7ffd63420ee927c16ab8cd0587a6477d2c59c71</hash>
+      <size>13429</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/7/1/sha1-f7ffd63420ee927c16ab8cd0587a6477d2c59c71</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -200,6 +200,15 @@
       <hash method="SHA1">01bea1dd2c0bfa193a9107f0d3e228817157c39c</hash>
       <size>132563</size>
       <link>http://10.0.0.10:8000/presentation-publish/pool/9/c/sha1-01bea1dd2c0bfa193a9107f0d3e228817157c39c</link>
+      <headers inherit="no" />
+      <chargeable>no</chargeable>
+    </download>
+    <download>
+      <name>bobcat-update.bsfw</name>
+      <hash method="SHA1">3710562429c64f3987df9fb2bc7d0fa51787fd28</hash>
+      <size>83542914</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/2/8/sha1-3710562429c64f3987df9fb2bc7d0fa51787fd28</link>
+      <group>script</group>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>

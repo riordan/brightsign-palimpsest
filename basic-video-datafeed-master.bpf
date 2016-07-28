@@ -284,7 +284,7 @@
             <userEvent>
               <name>timeout</name>
               <parameters>
-                <parameter>6</parameter>
+                <parameter>10</parameter>
               </parameters>
             </userEvent>
             <targetMediaState>Video List</targetMediaState>
