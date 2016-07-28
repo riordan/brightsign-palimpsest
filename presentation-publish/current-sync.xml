@@ -36,27 +36,18 @@
   </meta>
   <files>
     <download>
-      <name>autoplay-basic-videolist-master.xml</name>
-      <hash method="SHA1">c0a8f15f647d8c7b9832d3aacd166a442be5c52c</hash>
-      <size>12078</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/2/c/sha1-c0a8f15f647d8c7b9832d3aacd166a442be5c52c</link>
+      <name>autoplay-basic-video-datafeed-master.xml</name>
+      <hash method="SHA1">0db91eaf00266c52e47f5cd2220ae80d8c0f3b2f</hash>
+      <size>12683</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/2/f/sha1-0db91eaf00266c52e47f5cd2220ae80d8c0f3b2f</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>basic-videolist-master.bml</name>
-      <hash method="SHA1">b75ce67ef6807e0c307ebe07b2d5d72f2f899fb8</hash>
-      <size>12842</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/b/8/sha1-b75ce67ef6807e0c307ebe07b2d5d72f2f899fb8</link>
-      <headers inherit="no" />
-      <chargeable>no</chargeable>
-    </download>
-    <download>
-      <name>countdown-1.mp4</name>
-      <hash method="SHA1">65945580b55c676c578fbd154fe4da216d532dca</hash>
-      <size>569261</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/c/a/sha1-65945580b55c676c578fbd154fe4da216d532dca</link>
-      <probe>2|TT=MP4|IX=Y|VP=1|VC=H264|W=640|H=480|VD=00001978|CD=0|D=00001978|FT=00000000</probe>
+      <name>basic-video-datafeed-master.bml</name>
+      <hash method="SHA1">160c52ad514e3bd88778d8515443638a5be942af</hash>
+      <size>13428</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/a/f/sha1-160c52ad514e3bd88778d8515443638a5be942af</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -223,9 +214,9 @@
     </download>
     <download>
       <name>autoschedule.xml</name>
-      <hash method="SHA1">e648317d5cb859928abe2919fc73d3ecb77fd7ba</hash>
-      <size>950</size>
-      <link>http://10.0.0.10:8000/presentation-publish/pool/b/a/sha1-e648317d5cb859928abe2919fc73d3ecb77fd7ba</link>
+      <hash method="SHA1">b1e6f94cf62582faa0bbd213dc68c048c4b04ed2</hash>
+      <size>966</size>
+      <link>http://10.0.0.10:8000/presentation-publish/pool/d/2/sha1-b1e6f94cf62582faa0bbd213dc68c048c4b04ed2</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>

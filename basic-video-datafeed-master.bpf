@@ -149,7 +149,7 @@
         <url>
           <parameterValue>
             <parameterValueItemText>
-              <value>http://s3.amazonaws.com/bright-brown-columbia-test/feeds/data-feed-test.xml</value>
+              <value>http://10.0.0.10:8000/data-feed/data-feed-test.xml</value>
             </parameterValueItemText>
           </parameterValue>
         </url>
@@ -199,7 +199,7 @@
       <id>1</id>
       <zoomValue>1</zoomValue>
       <horizontalOffset>0</horizontalOffset>
-      <verticalOffset>0</verticalOffset>
+      <verticalOffset>96</verticalOffset>
       <zoneSpecificParameters>
         <viewMode>Letterboxed and Centered</viewMode>
         <audioOutput>Analog Audio</audioOutput>
@@ -236,54 +236,45 @@
           <initialState>Event Handler</initialState>
           <state>
             <name>Event Handler</name>
-            <x>210</x>
-            <y>48</y>
+            <x>121</x>
+            <y>7</y>
             <width>116</width>
             <height>99</height>
             <id>0</id>
             <eventHandler2Item>
               <stopPlayback>False</stopPlayback>
             </eventHandler2Item>
-            <brightSignCmd>
-              <name>SendZoneMessage</name>
-              <customUI>False</customUI>
-              <command>
-                <name>sendZoneMessage</name>
-                <parameter>
-                  <name>zoneMessage</name>
-                  <uiElementName>zoneMessage</uiElementName>
-                  <parameterValue>
-                    <parameterValueItemText>
-                      <value>go</value>
-                    </parameterValueItemText>
-                  </parameterValue>
-                  <itemName />
-                  <validationRule>-1</validationRule>
-                </parameter>
-              </command>
-            </brightSignCmd>
             <brightSignExitCommands>
             </brightSignExitCommands>
             <notes />
           </state>
           <state>
-            <name>Video Play File</name>
-            <x>214</x>
-            <y>197</y>
+            <name>Video List</name>
+            <x>136</x>
+            <y>182</y>
             <width>116</width>
             <height>99</height>
-            <id>2</id>
-            <playFileItem>
+            <id>1</id>
+            <mediaListItem>
               <mediaType>video</mediaType>
-              <stateName>Video Play File</stateName>
+              <advanceOnMediaEnd>False</advanceOnMediaEnd>
+              <advanceOnImageTimeout>False</advanceOnImageTimeout>
+              <playFromBeginning>False</playFromBeginning>
+              <imageTimeout />
+              <shuffle>False</shuffle>
               <slideTransition>No effect</slideTransition>
-              <specifyLocalFiles>False</specifyLocalFiles>
-              <useDefaultMedia>False</useDefaultMedia>
-              <useUserVariable>False</useUserVariable>
+              <sendZoneMessage>False</sendZoneMessage>
+              <startIndex>1</startIndex>
+              <transitionDuration>1.0</transitionDuration>
+              <populateFromMediaLibrary>False</populateFromMediaLibrary>
               <liveDataFeedName>countdown-2-bw feed</liveDataFeedName>
-              <filesTable>
-              </filesTable>
-            </playFileItem>
+              <files>
+              </files>
+              <brightSignCmdsTransitionNextItem>
+              </brightSignCmdsTransitionNextItem>
+              <brightSignCmdsTransitionPrevItem>
+              </brightSignCmdsTransitionPrevItem>
+            </mediaListItem>
             <brightSignExitCommands>
             </brightSignExitCommands>
             <notes />
@@ -293,10 +284,10 @@
             <userEvent>
               <name>timeout</name>
               <parameters>
-                <parameter>10</parameter>
+                <parameter>6</parameter>
               </parameters>
             </userEvent>
-            <targetMediaState>Video Play File</targetMediaState>
+            <targetMediaState>Video List</targetMediaState>
             <displayMode>displayConnectingLine</displayMode>
             <labelLocation>bottom</labelLocation>
             <brightSignCmd>
@@ -321,14 +312,14 @@
             <assignWildcardToUserVariable>False</assignWildcardToUserVariable>
           </transition>
           <transition>
-            <sourceMediaState>Video Play File</sourceMediaState>
+            <sourceMediaState>Video List</sourceMediaState>
             <userEvent>
               <name>mediaEnd</name>
               <parameters>
                 <parameter />
               </parameters>
             </userEvent>
-            <targetMediaState>Video Play File</targetMediaState>
+            <targetMediaState>Video List</targetMediaState>
             <displayMode>displayLabel</displayMode>
             <labelLocation>bottom</labelLocation>
             <brightSignCmd>

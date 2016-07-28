@@ -13,13 +13,11 @@
       <uploadlogs />
       <uploadsnapshots />
       <timezone>EST</timezone>
-      <unitName>local-demo-0</unitName>
+      <unitName />
       <unitNamingMethod>appendUnitIDToUnitName</unitNamingMethod>
       <unitDescription />
       <timeBetweenNetConnects>300</timeBetweenNetConnects>
-      <contentDownloadsRestricted>yes</contentDownloadsRestricted>
-      <contentDownloadRangeStart>0</contentDownloadRangeStart>
-      <contentDownloadRangeLength>0</contentDownloadRangeLength>
+      <contentDownloadsRestricted>no</contentDownloadsRestricted>
       <timeBetweenHeartbeats>900</timeBetweenHeartbeats>
       <heartbeatsRestricted>no</heartbeatsRestricted>
       <specifyHostname>no</specifyHostname>
