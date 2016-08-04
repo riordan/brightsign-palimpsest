@@ -4,7 +4,7 @@
     <description>Testing the Brightsign Data Feed format</description>
     <item>
       <title>coutndown-1.mp4</title>
-      <description>http://10.0.0.10:8000/media-assets/countdown-1.mp4</description>
+      <description>http://10.0.0.10:8000/media-assets/OnGuard1956_512kb.mp4</description>
     </item>
   </channel>
 </rss>

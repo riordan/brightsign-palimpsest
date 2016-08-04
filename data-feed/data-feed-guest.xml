@@ -1,0 +1,10 @@
+ <rss version ="2.0">
+  <channel>
+    <title>Brown Institute System Host</title>
+    <description>Testing the Brightsign Data Feed format</description>
+    <item>
+      <title>coutndown-1.mp4</title>
+      <description>http://10.0.0.10:8000/media-assets/OnGuard1956_512kb.mp4</description>
+    </item>
+  </channel>
+</rss>
