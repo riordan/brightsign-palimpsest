@@ -37,9 +37,9 @@
   <files>
     <download>
       <name>autoplay-test-pattern-0.xml</name>
-      <hash method="SHA1">237b06fac2d16cd24baf7ecba2264025ad8c6bab</hash>
+      <hash method="SHA1">f1b799e1558d8d5780fa33c30454a52656ea0fe2</hash>
       <size>9658</size>
-      <link>http://gurley-private.brown.columbia.edu/brightsigns/32/show/pool/a/b/sha1-237b06fac2d16cd24baf7ecba2264025ad8c6bab</link>
+      <link>http://gurley-private.brown.columbia.edu/brightsigns/32/show/pool/e/2/sha1-f1b799e1558d8d5780fa33c30454a52656ea0fe2</link>
       <headers inherit="no" />
       <chargeable>no</chargeable>
     </download>
@@ -212,19 +212,10 @@
       <chargeable>no</chargeable>
     </download>
     <download>
-      <name>panther-update_save.bsfw</name>
+      <name>panther-update.bsfw</name>
       <hash method="SHA1">10e0114ba8d6addf4eb48757a9d5af717f7fc089</hash>
       <size>62990014</size>
       <link>http://gurley-private.brown.columbia.edu/brightsigns/32/show/pool/8/9/sha1-10e0114ba8d6addf4eb48757a9d5af717f7fc089</link>
-      <group>script</group>
-      <headers inherit="no" />
-      <chargeable>no</chargeable>
-    </download>
-    <download>
-      <name>bobcat-update_save.bsfw</name>
-      <hash method="SHA1">3710562429c64f3987df9fb2bc7d0fa51787fd28</hash>
-      <size>83542914</size>
-      <link>http://gurley-private.brown.columbia.edu/brightsigns/32/show/pool/2/8/sha1-3710562429c64f3987df9fb2bc7d0fa51787fd28</link>
       <group>script</group>
       <headers inherit="no" />
       <chargeable>no</chargeable>

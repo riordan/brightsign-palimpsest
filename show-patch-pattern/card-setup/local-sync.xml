@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sync version="1.0">
+  <meta>
+    <client>
+      <limitStorageSpace>False</limitStorageSpace>
+      <enableSerialDebugging>False</enableSerialDebugging>
+      <enableSystemLogDebugging>False</enableSystemLogDebugging>
+      <obfuscatedPassphrase />
+    </client>
+  </meta>
+  <files>
+    <download>
+      <name>autorun.brs</name>
+      <hash method="SHA1">77acf346c4ebcfe84877ef9c6494adb59604e82c</hash>
+      <size>1075732</size>
+      <link>pool/2/c/sha1-77acf346c4ebcfe84877ef9c6494adb59604e82c</link>
+      <group>script</group>
+    </download>
+    <download>
+      <name>autoplugins.brs</name>
+      <hash method="SHA1">9b8a7f063db85cf79aa85cf455206b1ed7718e4d</hash>
+      <size>143</size>
+      <link>pool/4/d/sha1-9b8a7f063db85cf79aa85cf455206b1ed7718e4d</link>
+      <group>script</group>
+    </download>
+    <download>
+      <name>autoschedule.xml</name>
+      <hash method="SHA1">83a8cc07dd24da10fcab88233a1cff4bb44c9fd4</hash>
+      <size>101</size>
+      <link>pool/d/4/sha1-83a8cc07dd24da10fcab88233a1cff4bb44c9fd4</link>
+    </download>
+    <download>
+      <name>resources.txt</name>
+      <hash method="SHA1">123580d24f72d21dbb92628f94e64a43ac0e69c1</hash>
+      <size>2299</size>
+      <link>pool/c/1/sha1-123580d24f72d21dbb92628f94e64a43ac0e69c1</link>
+    </download>
+    <download>
+      <name>_deviceWebPage.html</name>
+      <hash method="SHA1">ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</hash>
+      <size>116438</size>
+      <link>pool/d/f/sha1-ea99df6e9103c0d9dd4b419519dbfbc3c97ef6df</link>
+    </download>
+    <download>
+      <name>_deviceIdWebPage.html</name>
+      <hash method="SHA1">a3eeb8009617a56fa412802e061ec931a6bd0fb1</hash>
+      <size>117474</size>
+      <link>pool/b/1/sha1-a3eeb8009617a56fa412802e061ec931a6bd0fb1</link>
+    </download>
+    <download>
+      <name>featureMinRevs.xml</name>
+      <hash method="SHA1">27fe8c782b5d086e962d9f9cdf56afde25522709</hash>
+      <size>658</size>
+      <link>pool/0/9/sha1-27fe8c782b5d086e962d9f9cdf56afde25522709</link>
+    </download>
+    <delete>
+      <pattern>*.brs</pattern>
+    </delete>
+    <delete>
+      <pattern>*.rok</pattern>
+    </delete>
+    <delete>
+      <pattern>*.bsfw</pattern>
+    </delete>
+    <ignore>
+      <pattern>*</pattern>
+    </ignore>
+  </files>
+</sync>
